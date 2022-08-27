@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Practice</title>
+    <style>
+        .apii {
+            padding: 10px 10px;
+            margin: 10px;
+            background-color: lightslategray;
+        }
+
+        .api {
+            padding: 10px 10px;
+            margin: 10px;
+            background-color: lightblue;
+        }
+
+        .id {
+            background-color: green;
+            display: inline;
+        }
+
+        .email {
+            margin-bottom: 50px;
+            border: 2px solid limegreen;
+            border-radius: 10px;
+            padding: 10px;
+            display: inline;
+            transition-duration: 1s;
+        }
+
+        .email:hover {
+            background-color: lightslategrey;
+            box-shadow: 10px 5px 5px rebeccapurple;
+        }
+
+        .com {
+            border: 2px solid lawngreen;
+            border-radius: 50px;
+            padding: 10px;
+            display: inline-block;
+
+        }
+
+        .com:hover {
+            font-size: large;
+            background-color: lightslategray;
+        }
+
+        .btn {
+            background-image: linear-gradient(to right, rgb(115, 117, 154), rgb(28, 33, 160));
+            color: wheat;
+            padding: 8px 15px;
+            font-weight: bolder;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div>
+        <h1>Hello Raju</h1>
+        <h1>---Welcome To Api----</h1>
+    </div>
+    <button class="btn" onclick="getApi()">Post Api</button>
+    <button class="btn" onclick="apiComments()">Comment Api</button>
+
+    <div id="apiPost" style="margin-left: 40px;">
+
+    </div>
+
+    <div id="apiComment" style="margin-left: 40px;">
+
+    </div>
+
+    <script src="js/api.js"></script>
+</body>
+
+</html>
